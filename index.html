@@ -3,86 +3,231 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <title>Portfolio</title>
+    <title>Website Portfolio</title>
   </head>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  />
   <body>
-    <header class="navbar">
-      <div class="logo">
-        <a href="#">Jasur</a>
-      </div>
+
+    <div class="scrollToTop-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+
+    <header>
+      <a href="#" class="brand">Jasur</a>
+      <div class="menu-btn"></div>
       <div class="navigation">
-        <a href="#">home</a>
-        <a href="#">about</a>
-        <a href="#">skills</a>
-        <a href="#">services</a>
-        <a href="#">work</a>
-        <a href="#">contact</a>
+        <a href="#main">home</a>
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#work">work</a>
+        <a href="#contact">contact</a>
       </div>
     </header>
 
     <section class="main" id="main">
-      <h2>
-        Hello, I'm <br />
-        <span>Jasur Beglarhanov</span>
-      </h2>
-      <h3>Frontend Developer</h3>
-      <a href="#">See my work</a>
-      <div class="media-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-telegram"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="about-me">About Me</div>
-      <div class="img">
-        <img src="images/img1.jpg" alt="" />
-        <div class="title">
-          <h1>
-            Hey There! I'm Jasur Beglarhanov
-            <p>
-              Who is a passionate frontend developer focused on building modern,
-              responsive, and user-friendly web interfaces. With strong skills
-              in HTML, CSS, JavaScript, and frameworks like React, he turns
-              ideas into functional, elegant digital experiences. He values
-              clean code, great design, and is always learning to stay ahead
-              with the latest technologies.
-            </p>
-          </h1>
+      <div class="content">
+        <h2>
+          Hello I'm <br />
+          <span>Jasur Beklarxonov</span>
+        </h2>
+        <div class="animated-text">
+          <h3>Web Developer</h3>
+          <h3>Gamer</h3>
+        </div>
+        <a href="#" class="btn">See My Work</a>
+        <div class="media-icons">
+          <a href="https://google.com"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
         </div>
       </div>
     </section>
 
-    <section class="title-my-skills">
-      <div class="my-skills">my skills</div>
-      <div class="my-skills-h1">
-        <h1>My Skills and Experience</h1>
-        <p>
-          While I do not have real project experience yet, I have completed
-          several academic and personal projects that demonstrate my knowledge
-          of modern web development practices. These projects helped me
-          strengthen my coding skills, problem-solving abilities, and
-          understanding of user interfaces. A motivated and detail-oriented
-          frontend developer with a solid foundation in web technologies
-          including HTML, CSS, JavaScript, and React. Strong understanding of
-          responsive design, UI/UX principles, and modern web development
-          practices. Known for excellent communication and collaboration skills,
-          with the ability to work well in team environments or independently.
-          Multilingual with native proficiency in Uzbek, fluent Russian, and
-          B2-level English — enabling effective communication across diverse
-          teams and international settings. Actively seeking opportunities to
-          apply and grow frontend development skills in a professional setting.
-        </p>
-        <a href="#">See More</a>
+    <section class="about" id="about">
+      <div class="title reveal">
+        <div class="section-title">About Me</div>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <div class="img-card">
+            <img src="images/img1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="column col-right reveal">
+          <h2 class="content-title">Hey there! I'm Jasur Beklarxonov</h2>
+          <p class="paragraph-text">
+            I am a passionate and self-driven Frontend Developer with hands-on
+            experience in creating responsive, user-friendly websites using
+            HTML, CSS, JavaScript, and React. I enjoy transforming static
+            designs into interactive, accessible, and clean web interfaces that
+            perform well across different devices and screen sizes. My learning
+            journey has been fueled by personal projects, online courses, and
+            continuous experimentation, which has helped me develop a solid
+            understanding of web development fundamentals. I focus on writing
+            clean, well-structured code and constantly seek opportunities to
+            improve my skills and expand my knowledge. I am eager to contribute
+            to real-world projects, collaborate with experienced developers, and
+            grow within a supportive team environment. I’m looking for
+            opportunities where I can learn, build, and make a meaningful impact
+            through code.
+          </p>
+          <a href="#" class="btn">See More</a>
+        </div>
       </div>
     </section>
+
+    <section class="skills" id="skills">
+      <div class="title reveal">
+        <div class="section-title">My Skills</div>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <h2 class="content-title">My Skills and Experiences</h2>
+          <p>
+            HTML / CSS – Confident in creating responsive layouts using semantic
+            HTML, Flexbox, and CSS Grid. JavaScript (ES6+) – Solid understanding
+            of core concepts such as DOM manipulation, events, functions,
+            arrays, objects, and asynchronous programming (fetch, async/await).
+            React – Experience building components, using props and state, basic
+            hooks like useState and useEffect, working with forms, and basic
+            routing with React Router. Projects – Completed several educational
+            projects, including: Single-page websites (landing pages), Simple
+            React applications (quizz app), API integration
+            for dynamic content. I don’t have commercial experience yet, but I
+            am actively learning and building my own projects. I’m open to
+            internships or junior positions to gain real-world experience.
+          </p>
+          <a href="#" class="btn">See More</a>
+        </div>
+        <div class="column col-right reveal">
+          <div class="bar">
+            <div class="info">
+              <span>HTML</span>
+              <span>85%</span>
+            </div>
+            <div class="line html"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>CSS</span>
+              <span>75%</span>
+            </div>
+            <div class="line css"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>JavaScript</span>
+              <span>50%</span>
+            </div>
+            <div class="line js"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>React</span>
+              <span>45%</span>
+            </div>
+            <div class="line react"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work">
+      <div class="title reveal">
+        <div class="section-title">My Work</div>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work1.jpg" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work2.jpg" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work3.jpg" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work4.jpg" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work5.jpg" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work6.jpg" alt="">
+          </div>
+        </div>
+        <div class="title reveal">
+          <a href="#" class="btn">SEE ALL</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="title reveal">
+        <div class="section-title">Contact Me</div>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info">
+              <h3>Address</h3>
+              <span>Tashkent City Country</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="info">
+              <h3>Phone</h3>
+              <span>+998 94 611 28 06</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>Email Address</h3>
+              <span>jasur.beglarkhanov@icloud.com</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <div class="info">
+              <h3>Website</h3>
+              <span>MyPortfolio.netlify.app</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span class="footer-title">Jasur Beglarxonov</span>
+      <p>Copyright @2025. All rights Reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
