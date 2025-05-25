@@ -347,6 +347,7 @@ section {
   flex-wrap: wrap;
   flex-direction: column;
   margin-top: 20px;
+  text-align: center;
 }
 
 .contact .content .row{
@@ -363,7 +364,6 @@ section {
   padding: 25px;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   box-shadow: 0 5px 25px rgba(1 1 1 /15%);
   border-radius: 10px;
